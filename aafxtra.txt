@@ -1,0 +1,34 @@
+**Automating hindsight output files**
+        #num = 0
+        #output_folder = 'Case_Numbers'
+        #for f in os.listdir(output_folder):
+         #   if os.path.isfile(os.path.join(output_folder, f)):
+          #      file_name = os.path.splitext(f)[0]
+           #     try:
+            #        file_num = int(file_name)
+             #       if file_num > num:
+              #          num = file_num
+               # except ValueError:
+                #    'The file name "%s" is not an integer. Skipping' % file_name
+
+
+        #outp = os.path.join(output_folder, str(num + 1))
+
+**Windows commands for Hindsight**
+
+        #cmdhsWindows = 'C:/Users/' + getpass.getuser() + '/AppData/Local/Google/Chrome/User Data/Default'
+        #winhscmd = 'python ' + dir_path + '/hindsight_master/hindsight.py -i ' + cmdhsWindows + ' -o ' + dir_path + '/' + outp + ' -f ' + 'sqlite'
+        #elif theos == "Windows":
+        #    p = subprocess.Popen(winhscmd, shell=True)
+
+**ASCII Prompt**
+
+#
+#
+ #    ___           ___       _______    .___________.  ______     ______    __       __  ___  __  .___________.
+#    /   \         /   \     |   ____|   |           | /  __  \   /  __  \  |  |     |  |/  / |  | |           |
+#   /  ^  \       /  ^  \    |  |__      `---|  |----`|  |  |  | |  |  |  | |  |     |  '  /  |  | `---|  |----`
+#  /  /_\  \     /  /_\  \   |   __|         |  |     |  |  |  | |  |  |  | |  |     |    <   |  |     |  |     
+# /  _____  \   /  _____  \  |  |            |  |     |  `--'  | |  `--'  | |  `----.|  .  \  |  |     |  |     
+#/__/     \__\ /__/     \__\ |__|            |__|      \______/   \______/  |_______||__|\__\ |__|     |__|     
+#                                                                                                               ''')
